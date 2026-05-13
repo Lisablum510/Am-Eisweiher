@@ -29,8 +29,9 @@ const story = {
     introduction: {
       id: "introduction",
       text: [
-        "Hallo! Die Frühlingsszeit steht vor der Tür, und du bist fest entschlossen, in diesem Jahr etwas ganz Besonderes zu erleben.",
-        "Schon immer haben dich Band Gruppen fasziniert.",
+        "Finde deinen Vater! ",
+        "Tippe Gegenstände an, um sie in deinem Rucksack zu sammeln. Dort kannst du sie jederzeit ansehen.",
+        
       
       ],
       hasTimer: false,

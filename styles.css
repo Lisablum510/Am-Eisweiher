@@ -1,7 +1,7 @@
 /* Interactive Story Styling */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(180deg, #ffffff, #fed0ed);
+    background: linear-gradient(180deg, #bb960e);
     min-height: 100vh;
     margin: 0 auto;
 }
@@ -10,10 +10,11 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 1px;
     padding: 0% 2%;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
+    min-height: 400px;
 }
 
 #header {
@@ -28,19 +29,17 @@ body {
 #main-title {
     font-size: 2.8rem;
     font-weight: 700;
-    color: #ff0404;
+    color: #000000;
     letter-spacing: -1px;
-    text-shadow: 0 0 10px #d4af37aa;
     text-transform: lowercase;
 }
 
 #story-container {
     flex-direction: row;
     justify-content: space-between;
-    background: #ffffffcc;
+    background: #ffffff;
     border-radius: 4px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
-    border-left: 4px solid #d4af37;
     backdrop-filter: blur(4px);
     margin-bottom: 20px;
     padding: 20px;
@@ -104,8 +103,8 @@ input, button {
 }
 
 button {
-  background: hsla(318, 90%, 52%, 0.8);
-  color: red;
+  background: hsla(0, 0%, 0%, 0.8);
+  color: rgb(255, 255, 255);
   cursor: pointer;
   transition: background 0.25s ease, transform 0.15s ease, box-shadow 0.2s ease;
 }
